@@ -18,10 +18,6 @@ public class BookDAOImpl implements BookDAO {
         this.jdbcTemplate = jdbcTemplate;
     }
 
-    @Bean
-    public JdbcTemplate jdbcTemplate(DataSource dataSource) {
-        return new JdbcTemplate(dataSource);
-    }
 
     @Override
     public void createBook(Book book) {

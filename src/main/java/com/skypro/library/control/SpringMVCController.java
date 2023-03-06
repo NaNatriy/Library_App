@@ -1,4 +1,4 @@
-package com.skypro.library.security.control;
+package com.skypro.library.control;
 
 import com.skypro.library.service.BookService;
 import org.springframework.stereotype.Controller;
